@@ -4,12 +4,12 @@ import { useState } from 'react'
 // import Counter from "./components/useStateHook/Counter"
 import './App.css'
 // import Example1 from './components/useEffectHook/Example1'
-import Example2 from './components/useEffectHook/Example2'
-import Example3 from './components/useEffectHook/Example3'
-import LocalStorage from './components/LocalStorage'
+// import Example2 from './components/useEffectHook/Example2'
+// import Example3 from './components/useEffectHook/Example3'
+// import LocalStorage from './components/LocalStorage'
 // import UseRefHooks from './components/useEffectHook/page'
 import UseRefHook from './components/UseRefHook'
-import UseMemoHoook from './components/UseMemoHoook'
+// import UseMemoHoook from './components/UseMemoHoook'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -26,7 +26,10 @@ function App() {
   {/* <UseRefHooks/>      */}
   {/* <LocalStorage/>      */}
   {/* <UseRefHook/>      */}
-  <UseMemoHoook/>     
+  {/* <UseMemoHoook/>      */}
+    
+    
+    
     </>
   )
 }
