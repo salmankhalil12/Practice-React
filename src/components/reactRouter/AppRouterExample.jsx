@@ -9,7 +9,7 @@ const AppRouterExample = () => {
   function User() {
     console.log(useParams());
     const { id } = useParams();
-    return <h1> User Profile for ID: {id}</h1>
+    return <h1 className='font-bold py-4'> User Profile for ID: {id}</h1>
 
   }
   function NotFound() {
@@ -17,12 +17,12 @@ const AppRouterExample = () => {
   }
   return (
     <BrowserRouter>
-      <nav>
+      <nav className='py-5'>
         <Link to="/"><b className="me-3  py-5">Home</b></Link> /
         <Link to="/about" ><b className="me-3  py-5">About</b></Link> /
         <Link to="/contact" ><b className="me-3  py-5">Contact</b></Link> /
-        <Link to="/user/10" ><b className="me-3  py-5">Users</b></Link> /
-        <Link to="/products" ><b className="me-3  py-5">Products</b></Link> /
+        <Link to="/user/10" ><b className="me-3  ">Users</b></Link> /
+        <Link to="/products" ><b className="me-3  py-5">Products</b></Link> 
       </nav>
       <Routes>
         <Route path='/' element={<Home />} />

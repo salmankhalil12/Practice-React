@@ -7,8 +7,8 @@ const About = () => {
   }
   return (
     <div>
-      <h1>Welcome to About Page</h1>
-      <button onClick={backTOHome}>Back to Home </button>
+      <h1 className='font-bold py-4'>Welcome to About Page</h1>
+      <button onClick={backTOHome} className='bg-green-700 p-4 rounded-xl text-white' >Back to Home </button>
     </div>
   )
 }

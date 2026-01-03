@@ -7,9 +7,9 @@ const Home = () => {
     navigate("/about")
   }
   return (
-    <div>
-      <h1>Welcome to Home Page</h1>
-      <button onClick={goTOAbout}>About Pag</button>
+    <div className=''>
+      <h1 className='font-bold py-4'>Welcome to Home Page</h1>
+      <button onClick={goTOAbout} className='bg-green-700 p-4 rounded-xl text-white' >About Pag</button>
     </div>
   )
 }

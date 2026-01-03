@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <div>Contact Page</div>
+    <div className='font-bold py-4'>Contact Page</div>
   )
 }
 
