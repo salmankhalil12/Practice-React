@@ -8,8 +8,9 @@ import './App.css'
 // import Example3 from './components/useEffectHook/Example3'
 // import LocalStorage from './components/LocalStorage'
 // import UseRefHooks from './components/useEffectHook/page'
-import UseRefHook from './components/UseRefHook'
+// import UseRefHook from './components/UseRefHook'
 // import UseMemoHoook from './components/UseMemoHoook'
+import AppRouterExample from './components/reactRouter/AppRouterExample'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -27,8 +28,8 @@ function App() {
   {/* <LocalStorage/>      */}
   {/* <UseRefHook/>      */}
   {/* <UseMemoHoook/>      */}
-    
-    
+    <AppRouterExample/>
+
     
     </>
   )
